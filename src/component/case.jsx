@@ -33,12 +33,13 @@ export default class Case extends React.Component {
 				<br />
 				<Row>
 					<Col span="2">
-						<Button type="primary" size="small" onClick={this._click.bind(this)}>返回列表</Button>
+						&nbsp;
 					</Col>
 					<Col span="18" className="">
 						&nbsp;
 					</Col>
 					<Col span="2">
+						<Button type="primary" size="small">下载</Button>
 					</Col>
 				</Row>
 				<Row>
