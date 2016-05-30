@@ -59,7 +59,7 @@ export default class categories extends React.Component {
 		super(props);
 		this.state = {
 			treeData: [{
-				name: "合同",
+				name: "案例",
 				key: 0,
 				isLeaf: false
 			}],
